@@ -13,6 +13,7 @@ public class Animal {
         this.hasFur = hasFur;
     }
     public String getDescription(){
-        return "This animal is mostly "+this.color+". It has "+this.numberOfPaws+" paws and ('a'/'no' -> depends on value of "+hasFur+" fur.";
+        return "This animal is mostly "+this.color+". It has "+this.numberOfPaws+" paws and "+(this.hasFur? "a":"no")+" fur.";
     }
+
 }
